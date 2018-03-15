@@ -8,14 +8,13 @@ This project uses Dijkstra's algorithm on Open Street Map data. The project cons
 1. Checkout the github repo: `https://github.com/MaraimElbadri/osm_graph`.
 2. Setup the dependencies:
 
-<pre>
+```
 cd osm_graph
 chmod +x run.sh
-<pre/>
-
+```
 
 ## Execution
-A shell script `run.sh` has been provided to execute the program. The script passes 3 arguements to the Python program in this format `./run.sh <path to graph> <from-osm-id> <to-osm-id>`.
+A shell script `run.sh` has been provided to execute the program. The script passes 3 arguements to the Python program in the following format `./run.sh <path to graph> <from-osm-id> <to-osm-id>`.
 
 ### Example
 `./run.sh citymapper-coding-test-graph.dat 316319897 316319936`<br/>
