@@ -6,7 +6,7 @@ This project uses Dijkstra's algorithm on Open Street Map data. The project cons
 
 ## Instructions
 1. Checkout the github repo: `https://github.com/MaraimElbadri/osm_graph`.
-2. Setup the dependencies:
+2. Setup the environment:
 
 ```
 cd osm_graph
