@@ -17,8 +17,8 @@ chmod +x run.sh
 A shell script `run.sh` has been provided to execute the program. The script passes 3 arguements to the Python program in the following format `./run.sh <path to graph> <from-osm-id> <to-osm-id>`.
 
 ### Example
-`./run.sh citymapper-coding-test-graph.dat 316319897 316319936`<br/>
-`121`
+```./run.sh citymapper-coding-test-graph.dat 316319897 316319936
+121```
 
 ## Check list 
 - [x] construct a graph from the data 
