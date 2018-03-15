@@ -9,9 +9,11 @@ This project uses Dijkstra's algorithm on Open Street Map data. The project cons
 2. Setup the dependencies:
 
 <pre>
-`cd osm_graph` <br/>
-`chmod +x run.sh` <br/>
+cd osm_graph
+chmod +x run.sh
 <pre/>
+
+
 ## Execution
 A shell script `run.sh` has been provided to execute the program. The script passes 3 arguements to the Python program in this format `./run.sh <path to graph> <from-osm-id> <to-osm-id>`.
 
