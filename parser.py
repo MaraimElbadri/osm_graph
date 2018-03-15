@@ -17,7 +17,7 @@ class Parser(ArgumentParser):
     def _valid_file_path(path):
         """
         check if the file path is valid if path provided is a valid
-        param value: location on filesystem
+        param path: location on filesystem
         return: absolute location on filesystem
         """
         abs_path = os.path.abspath(path)

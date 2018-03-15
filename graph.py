@@ -27,21 +27,18 @@ class Graph:
     def add_edge(self, edge):
         """
         add a new edge to the graph
-        :param edge: an edge connecting two nodes
-        :param directional: boolean flag indicating edge to be direction to bidirectional
+        param edge: an edge connecting two nodes
         """
         (node1, node2, dist) = tuple(edge)
         self.add_directional_edge(node1, node2, dist)
 
-        #if not directional:
-        #self.add_directional_edge(node2, node1, dist)
 
     def add_directional_edge(self, source, dest, dist):
         """
         adds a directional edge to the graph
-        :param source: start node
-        :param dest: end node
-        :param dist: weight of edge
+        param source: start node
+        param dest: end node
+        param dist: weight of edge
         """
         if source in self._graph_dictionary:
             self._graph_dictionary[source][dest] = int(dist)
